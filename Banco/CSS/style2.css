@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: none;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    background-image: url(../IMG/city-g837a8b7e7_1280.jpeg);
+}
+.logo__img{
+    width: 11em;
+}
+.header{
+    display:flex;
+    width: 100%;
+    flex-direction:row;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+    background-color: gainsboro;
+    padding-inline: 1em;
+}
+.menuh{
+    display: inline-flex;
+    justify-content:stretch;
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-inline: 2em;
+
+
+
+
+}
+.menuh__item{
+    display:block;
+    align-items: center;
+    padding-block:1.5em;
+    padding-right: 1.5em;
+}
+.menuh__item:hover{
+    background-color:rgb(232, 232, 232);
+
+}
+
+.menuv{
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 15em;
+    background-color: rgba(234, 232, 232, 0.684);
+    margin-top: 1.5em;
+    /* padding-left: 1em; */
+
+}
+.menuh li:hover .menuv{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+.menuv__item{
+    padding-block: 1em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+.menuv__item:hover{
+    background-color:rgba(240, 240, 240, 0.38)
+}
