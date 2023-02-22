@@ -1,0 +1,9 @@
+
+const coches = ['BMW', 'Volvo', 'Volkswagen'];
+const lon= coches.length;
+// for(let i= 0; i < lon; i++){
+//     console.log(coches[i]);
+// }
+for(let coche of coches){
+    console.log(coche)
+}
