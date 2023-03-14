@@ -1,0 +1,20 @@
+package helloworld;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("hello world");
+System.out.println("3+2*4*3/6=" + (3+2*4*3/6));
+// Secuencia de escape: para poner comillas en un texto como el de abajo, si no pones eso \" no funciona\
+System.out.println("Esto \" es una comilla");
+// Existen otras secuencias de escape
+// \t
+System.out.println("Hola amigos \t esto es una tabulacion");
+// \
+// \
+// \
+// \
+	}
+
+}
